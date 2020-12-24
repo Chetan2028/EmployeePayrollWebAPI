@@ -14,7 +14,5 @@ namespace BusinessLayer.IServices
         bool EditEmployee(UpdateModel updatedEmployee, int EmpId);
         List<CompanyEmployee> GetAllEmployee();
         bool RegisterEmployee(RegisterModel employee);
-
-
     }
 }

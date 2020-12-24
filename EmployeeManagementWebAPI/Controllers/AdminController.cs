@@ -31,7 +31,6 @@ namespace EmployeeManagementWebAPI.Controllers
             this.adminBL = adminBL;
             this.configuration = configuration;
         }
-
         [HttpPost("Register")]
         [AllowAnonymous]
         public IActionResult RegisterAdmin(RegisterModel admin)

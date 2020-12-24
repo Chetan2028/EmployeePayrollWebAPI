@@ -12,6 +12,5 @@ namespace RepositoryLayer.IRepository
         bool Delete(int EmpId);
         bool EditEmployee(UpdateModel updatedEmployee, int EmpId);
         List<CompanyEmployee> GetAllEmployee();
-
     }
 }

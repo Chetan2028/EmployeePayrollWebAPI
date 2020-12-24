@@ -20,6 +20,5 @@ namespace RepositoryLayer.EmployeeDbContext
                 .HasIndex(u => u.Email)
                 .IsUnique();
         }
-
     }
 }

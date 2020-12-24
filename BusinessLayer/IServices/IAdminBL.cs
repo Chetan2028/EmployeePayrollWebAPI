@@ -13,3 +13,4 @@ namespace BusinessLayer.IServices
         bool RegisterAdmin(RegisterModel admin);
     }
 }
+

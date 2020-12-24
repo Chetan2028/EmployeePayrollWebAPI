@@ -34,7 +34,6 @@ namespace RepositoryLayer.Repository
                     CreatedDateTime = DateTime.UtcNow,
                     ModifiedDateTime = null
                 };
-
                 this.context.Employees.Add(employeeObject);
                 int result = this.context.SaveChanges();
                 if (result > 0)

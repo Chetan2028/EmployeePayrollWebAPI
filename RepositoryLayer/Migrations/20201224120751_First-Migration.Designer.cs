@@ -13,7 +13,7 @@ namespace RepositoryLayer.Migrations
     [Migration("20201224120751_First-Migration")]
     partial class FirstMigration
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+      protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,3 +55,5 @@ namespace RepositoryLayer.Migrations
         }
     }
 }
+
+

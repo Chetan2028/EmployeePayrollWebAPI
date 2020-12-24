@@ -12,6 +12,5 @@ namespace CommonLayer.RequestModel
 
         [Required]
         public string Password { get; set; }
-
     }
 }

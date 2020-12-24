@@ -14,6 +14,5 @@ namespace CommonLayer.ResponseModel
         public DateTime? CreatedDateTime { get; set; }
         public string Role { get; set; }
         public DateTime? ModifiedDateTime { get; set; }
-
     }
 }

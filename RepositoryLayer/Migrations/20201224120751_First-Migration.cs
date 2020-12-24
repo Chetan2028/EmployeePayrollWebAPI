@@ -27,7 +27,6 @@ namespace RepositoryLayer.Migrations
                 {
                     table.PrimaryKey("PK_Employees", x => x.EmployeeId);
                 });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Employees_Email",
                 table: "Employees",

@@ -16,7 +16,6 @@ namespace BusinessLayer.Services
         {
             this.employeeRL = employeeRL;
         }
-
         public bool Delete(int EmpId)
         {
             try

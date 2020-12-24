@@ -21,7 +21,6 @@ namespace EmployeeManagementWebAPI.Controllers
         {
             this.employeeBL = employeeBL;
         }
-
         [HttpPost]
         public IActionResult RegisterEmployee(RegisterModel employee)
         {

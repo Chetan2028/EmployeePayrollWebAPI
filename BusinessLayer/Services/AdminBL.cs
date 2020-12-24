@@ -28,7 +28,6 @@ namespace BusinessLayer.Services
                 throw e;
             }
         }
-
         public List<EmployeeModel> GetAllEmployee()
         {
             try

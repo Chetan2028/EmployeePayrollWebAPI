@@ -19,6 +19,5 @@ namespace RepositoryLayer.ContextModel
         public string Role { get; set; }
         public DateTime? ModifiedDateTime { get; set; }
         public DateTime? CreatedDateTime { get; set; }
-
     }
 }
